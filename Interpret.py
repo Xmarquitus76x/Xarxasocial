@@ -37,8 +37,8 @@ class Interpret:
             else:
                 break
 if __name__=="__main__":
-    def c1(l): print ("executo l’ordre 1: {0}".format(l[0]))
-    def c2(l): print ("executo l’ordre 2: {0}".format(l[0]))
+    def c1(l): print ("executo l’ordre 1: {0}".format(self.dcom[0]))
+    def c2(l): print ("executo l’ordre 2: {0}".format(self.dcom[0]))
     i = Interpret()
     i.set_prompt("∗∗")
     i.afegeix_ordre("llista", c1)
